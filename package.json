@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kaichaosun/app-capability/issues"
   },
-  "homepage": "https://github.com/kaichaosun/app-capability#readme"
+  "homepage": "https://github.com/kaichaosun/app-capability#readme",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
 }
