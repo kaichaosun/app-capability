@@ -4,8 +4,8 @@
   "description": "Capability based security for web apps.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "test": "jest",
+    "build": "tsc --project tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\""
   },
   "repository": {
@@ -19,8 +19,13 @@
   },
   "homepage": "https://github.com/kaichaosun/app-capability#readme",
   "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1",
     "prettier": "^2.6.2",
+    "ts-jest": "^28.0.4",
     "typescript": "^4.7.3"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ]
 }
